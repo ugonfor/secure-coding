@@ -1,6 +1,6 @@
 # Secure Coding
 
-Tiny Shopping Mall Website.
+## Tiny Secondhand Shopping Platform.
 
 You should add some functions and complete the security requirements.
 
@@ -14,7 +14,7 @@ conda env create -f enviroments.yaml
 
 ## usage
 
-run the front and backend processes.
+run the server process.
 
 ```
 python app.py
