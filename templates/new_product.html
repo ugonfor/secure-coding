@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}새 상품 등록{% endblock %}
+{% block content %}
+<h2>상품 등록</h2>
+<form method="post">
+  제목: <input type="text" name="title" required><br>
+  설명: <br>
+  <textarea name="description" rows="4" cols="50" required></textarea><br>
+  가격: <input type="text" name="price" required><br>
+  <button type="submit">등록하기</button>
+</form>
+{% endblock %}

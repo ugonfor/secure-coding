@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}상품 상세보기{% endblock %}
+{% block content %}
+<h2>{{ product.title }}</h2>
+<p>{{ product.description }}</p>
+<p>가격: {{ product.price }}</p>
+<p>판매자: {{ seller.username if seller else '알 수 없음' }}</p>
+{% endblock %}
