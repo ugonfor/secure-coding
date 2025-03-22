@@ -9,6 +9,7 @@ You should add some functions and complete the security requirements.
 if you don't have a miniconda(or anaconda), you can install it on this url. - https://docs.anaconda.com/free/miniconda/index.html
 
 ```
+git clone https://github.com/ugonfor/secure-coding
 conda env create -f enviroments.yaml
 ```
 
